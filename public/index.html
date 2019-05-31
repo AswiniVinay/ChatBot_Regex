@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Title Page</title>
+        <title>Regex_Chat-Bot</title>
                 <!-- jQuery -->
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
                 <!-- Bootstrap JavaScript -->
@@ -19,19 +19,20 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-
+        <link rel="stylesheet" type="text/css" href="animate.css">
         <link href="styles.css" rel="stylesheet" type="text/css">
         <script src="main.js"></script>
     </head>
     <body>
-        <div class="text-center">
-        <h1>Hello World</h1>
-        <p>Say: <input id="user-input" type="text"></input></p>
-        <button id="submit">submit</button>
-        <p>
-            reply:
-            <span id="output"></span>
-        </p>
+            <img class="animated jackInTheBox" id="default" src="default.gif" alt="default">
+        <div class="text-center container animated zoomInUp" id="mydiv">
+        <h1>Hello Universe</h1>
+        <h3>Say: <input id="user-input" type="text"></input></h3>
+        <button id="submit" class="btn btn-success">submit</button>
+        <h3>
+            The bot says:
+        </h3>
+        <span id="output" class="animated flip"></span>
         </div>
 
     </body>
